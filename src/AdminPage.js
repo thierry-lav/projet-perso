@@ -27,9 +27,7 @@ function AdminPage() {
         initialValues={{
           firstName: "thierry",
           lastName: "lav",
-          age: 30,
-          experiences: [],
-          loisirs: []
+          age: 30
         }}
         onSubmit={(values, { setSubmitting }) => {
           const newUser = {
